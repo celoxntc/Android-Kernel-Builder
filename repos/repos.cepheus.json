@@ -33,7 +33,7 @@
       "externalCommand": {
         "CLANG_TRIPLE": "gcc/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "gcc32/bin/arm-linux-androideabi- "$@"",
+        "CROSS_COMPILE_ARM32": "gcc32/bin/arm-linux-androideabi-",
       }
     },
     "AnyKernel3": {
