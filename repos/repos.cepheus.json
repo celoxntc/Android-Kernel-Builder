@@ -15,14 +15,16 @@
         "binPath": ["./bin"]
       },
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/heads/main.tar.gz",
-        "name": "gcc",
-        "binPath": ["bin"]
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
+    "branch": "android11-release",
+    "name": "gcc",
+    "binPath": ["bin"]
       },
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/+archive/refs/heads/main.tar.gz",
-        "name": "gcc32",
-        "binPath": ["bin"]
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+    "branch": "android11-release",
+    "name": "gcc32",
+    "binPath": ["bin"]
       }
     ],
     "ccache": false,
@@ -38,9 +40,9 @@
     },
     "AnyKernel3": {
       "use": true,
-      "release": false,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "release": true,
+      "repo": "https://github.com/celoxntc/AnyKernel3/",
+      "branch": "master"
     }
   }
 ]
