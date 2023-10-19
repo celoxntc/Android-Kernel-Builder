@@ -214,7 +214,7 @@ jobs:
           arch: ${{ steps.generate-args.outputs.ARCH }}
         with:
           name: Image.gz-${{ env.KERNEL_DEVICE }}-${{ env.KERNEL_NAME }}-${{ env.builddate }}
-          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image.gz
+          path: ${{ env.OUT_DIR }}/arch/${{ env.arch }}/boot/Image-dtb
           if-no-files-found: ignore
           retention-days: 7
 
