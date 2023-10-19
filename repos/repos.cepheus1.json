@@ -1,52 +1,48 @@
 [
   {
     "kernelSource": {
-      "name": "kernel_xiaomi_cepheus3",
-      "repo": "https://github.com/mesziman/kernel_xiaomi_sm8150-2",
-      "branch": "ten",
+      "name": "Cepheus_KenrlSU",
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "branch": "cepheus-q-oss",
       "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+      "defconfig": "cepheus_user_defconfig"
     },
-    "withKernelSU": true,
+    "withKernelSU": false,
     "toolchains": [
       {
-        "repo": "https://github.com/EviraKernel/Clang-11/",
-        "branch": "master",
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android10-release/clang-r353983c.tar.gz",
         "name": "clang",
-        "binPath": ["bin"]
+        "binPath": ["./bin"]
       },
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/a9b70fc1b59747d1334677e539b2ef4c752a59a1.tar.gz",
-        "name": "gcc",
-        "binPath": ["bin"]
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
+    "branch": "android10-release",
+    "name": "gcc",
+    "binPath": ["bin"]
+      },
+      {
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+    "branch": "android10-release",
+    "name": "gcc32",
+    "binPath": ["bin"]
       }
     ],
-    "ccache": true,
+    "ccache": false,
     "params": {
       "ARCH": "arm64",
-      "CC": "clang/bin/clang",
+      "CC": "clang",
+      "HOSTCC": "clang",
       "externalCommand": {
-        "CLANG_TRIPLE": "gcc/bin/aarch64-linux-android-",
+        "CLANG_TRIPLE": "gcc/bin/aarch64-linux-gnu-",
         "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
-        "CROSS_COMPILE_ARM32": "gcc/bin/arm-linux-androideabi-",
-        "LD": "clang/bin/ld.lld",
-        "AR": "clang/bin/llvm-ar",
-        "NM": "clang/bin/llvm-nm",
-        "OBJCOPY": "clang/bin/llvm-objcopy",
-        "OBJDUMP": "clang/bin/llvm-objdump",
-        "READELF": "clang/bin/llvm-readelf",
-        "OBJSIZE": "clang/bin/llvm-size",
-        "STRIP": "clang/bin/llvm-strip",
-        "LDGOLD": "clang/bin/aarch64-linux-gnu-ld.gold",
-        "LLVM_AR": "clang/bin/llvm-ar",
-        "LLVM_DIS": "clang/bin/llvm-dis"
+        "CROSS_COMPILE_ARM32": "gcc32/bin/arm-linux-androideabi-"
       }
     },
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/easterNday/AnyKernel3/",
-      "branch": "thyme"
+      "repo": "https://github.com/celoxntc/AnyKernel3/",
+      "branch": "master"
     }
   }
 ]
