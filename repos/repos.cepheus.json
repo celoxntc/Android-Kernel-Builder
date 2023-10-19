@@ -1,13 +1,13 @@
 [
   {
     "kernelSource": {
-      "name": "Cepheus_KenrlSU",
+      "name": "Cepheus_KenrlSU_true_aosp",
       "repo": "https://github.com/EastOrrerySunSoft/kernel_xiaomi_cepheus_aosp",
       "branch": "q",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz",
