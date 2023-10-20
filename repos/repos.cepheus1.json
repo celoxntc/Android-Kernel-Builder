@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Cepheus_Raphael_Kernel_MI_A10",
-      "repo": "https://github.com/lelaonn/Cepheus_Raphael_Kernel_MI_A10",
-      "branch": "master",
+      "name": "Cepheus-Raphael-Q-GCC10",
+      "repo": "https://github.com/mrslezak/Cepheus-Raphael-Q-GCC10",
+      "branch": "cepheus-q-oss",
       "device": "cepheus",
       "defconfig": "cepheus_user_defconfig"
     },
