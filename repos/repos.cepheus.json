@@ -10,9 +10,10 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902.tar.gz",
-        "name": "clang",
-        "binPath": ["./bin"]
+    "repo": "https://github.com/pkm774/android-kernel-tools",
+    "branch": "tools",
+    "name": "clang",
+    "binPath": ["sdclang/linux-x86_64/bin"]
       },
       {
     "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
