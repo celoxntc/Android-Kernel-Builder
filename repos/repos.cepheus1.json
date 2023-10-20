@@ -2,27 +2,27 @@
   {
     "kernelSource": {
       "name": "Cepheus_KenrlSU_sm8150-r-oss",
-      "repo": "https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8150",
-      "branch": "sm8150-r-oss",
+      "repo": "https://github.com/lelaonn/Cepheus_Raphael_Kernel_MI_A10",
+      "branch": "master",
       "device": "cepheus",
-      "defconfig": "cepheus-stock_defconfig"
+      "defconfig": "cepheus_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
       {
-        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902b.tar.gz",
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android10-release/clang-r353983c.tar.gz",
         "name": "clang",
         "binPath": ["./bin"]
       },
       {
     "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
-    "branch": "android11-release",
+    "branch": "android10-release",
     "name": "gcc",
     "binPath": ["bin"]
       },
       {
     "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
-    "branch": "android11-release",
+    "branch": "android10-release",
     "name": "gcc32",
     "binPath": ["bin"]
       }
