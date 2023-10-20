@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Cepheus_KenrlSU",
-      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "repo": "https://github.com/MiCo-de/Xiaomi_Kernel_OpenSource",
       "branch": "cepheus-q-oss",
       "device": "cepheus",
       "defconfig": "cepheus_user_defconfig"
