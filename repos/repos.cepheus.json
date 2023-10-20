@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "Cepheus_KenrlSU_true_aosp",
-      "repo": "https://github.com/EastOrrerySunSoft/kernel_xiaomi_cepheus_aosp",
-      "branch": "q",
+      "name": "https://github.com/shandongtlb/kernel_xiaomi_sm8150_MI9",
+      "repo": "https://github.com/shandongtlb/kernel_xiaomi_sm8150_MI9",
+      "branch": "CAF-10",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
     },
