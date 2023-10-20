@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "https://github.com/shandongtlb/kernel_xiaomi_sm8150_MI9",
+      "name": "shandongtlb-kernel_xiaomi_sm8150_MI9",
       "repo": "https://github.com/shandongtlb/kernel_xiaomi_sm8150_MI9",
       "branch": "CAF-10",
       "device": "cepheus",
