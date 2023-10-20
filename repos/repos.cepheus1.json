@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Cepheus-Raphael-Q-GCC10",
-      "repo": "https://github.com/mrslezak/Cepheus-Raphael-Q-GCC10",
-      "branch": "cepheus-q-oss",
+      "name": "jakoritarleite_kernel_xiaomi_cepheus",
+      "repo": "https://github.com/jakoritarleite/kernel_xiaomi_cepheus",
+      "branch": "ten",
       "device": "cepheus",
-      "defconfig": "cepheus_user_defconfig"
+      "defconfig": "cepheus_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
