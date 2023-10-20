@@ -5,7 +5,7 @@
       "repo": "https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8150",
       "branch": "cepheus-r-oss",
       "device": "cepheus",
-      "defconfig": "vendor/cepheus_user_defconfig""
+      "defconfig": "vendor/cepheus_user_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
