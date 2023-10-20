@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Cepheus_KenrlSU",
-      "repo": "https://github.com/MiCo-de/Xiaomi_Kernel_OpenSource",
-      "branch": "cepheus-q-oss",
+      "repo": "https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8150",
+      "branch": "cepheus-r-oss",
       "device": "cepheus",
-      "defconfig": "cepheus_user_defconfig"
+      "defconfig": "vendor/cepheus_user_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
