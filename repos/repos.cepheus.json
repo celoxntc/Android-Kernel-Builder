@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Cepheus_Ayrton990",
-      "repo": "https://github.com/Official-Ayrton--990/android_kernel_xiaomi_sm8150",
+      "repo": "https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8150",
       "branch": "QK-MIUI-Cepheus-rebase",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
@@ -10,10 +10,9 @@
     "withKernelSU": true,
     "toolchains": [
       {
-    "repo": "https://github.com/pkm774/android-kernel-tools",
-    "branch": "tools",
-    "name": "clang",
-    "binPath": ["sdclang/linux-x86_64/bin"]
+        "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/android11-release/clang-r383902b.tar.gz",
+        "name": "clang",
+        "binPath": ["./bin"]
       },
       {
     "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
