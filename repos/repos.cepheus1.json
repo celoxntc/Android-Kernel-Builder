@@ -1,7 +1,7 @@
 [
   {
     "kernelSource": {
-      "name": "Cepheus_KenrlSU_sm8150-r-oss",
+      "name": "Cepheus_Raphael_Kernel_MI_A10",
       "repo": "https://github.com/lelaonn/Cepheus_Raphael_Kernel_MI_A10",
       "branch": "master",
       "device": "cepheus",
