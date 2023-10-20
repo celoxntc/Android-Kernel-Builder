@@ -2,7 +2,7 @@
   {
     "kernelSource": {
       "name": "Cepheus_Ayrton990",
-      "repo": "https://github.com/Official-Ayrton990/android_kernel_xiaomi_sm8150",
+      "repo": "https://github.com/Officia--l-Ayrton990/android_kernel_xiaomi_sm8150",
       "branch": "QK-MIUI-Cepheus-rebase",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
