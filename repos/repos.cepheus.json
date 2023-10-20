@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "msm-4.14-pure-KSU-Q",
-      "repo": "https://github.com/shandongtlb/msm-4.14-pure",
-      "branch": "FIX-AOD-walt",
+      "name": "CandyKernelKSU-A10",
+      "repo": "https://github.com/wloot/raphael",
+      "branch": "master",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
     },
