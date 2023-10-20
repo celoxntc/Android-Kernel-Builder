@@ -1,9 +1,9 @@
 [
   {
     "kernelSource": {
-      "name": "jakoritarleite_kernel_xiaomi_cepheus",
-      "repo": "https://github.com/jakoritarleite/kernel_xiaomi_cepheus",
-      "branch": "ten",
+      "name": "msm-4.14-pure-KSU-Q",
+      "repo": "https://github.com/shandongtlb/msm-4.14-pure",
+      "branch": "FIX-AOD-walt",
       "device": "cepheus",
       "defconfig": "cepheus_defconfig"
     },
