@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Lineage-OP5-KSU-CLANG10",
-      "repo": "https://github.com/LineageOS/android_kernel_oneplus_msm8998",
-      "branch": "lineage-17.1",
+      "name": "pixel-OP5-KSU-CLANG10",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_oneplus_msm8998",
+      "branch": "ten",
       "device": "cheeseburger",
-      "defconfig": "msmcortex_defconfig"
+      "defconfig": "oneplus5_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
