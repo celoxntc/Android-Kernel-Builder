@@ -6,7 +6,7 @@
       "branch": "lineage-17.1",
       "device": "cheeseburger",
       "defconfig": "lineage_oneplus5_defconfig"
-    }},
+    },
     "withKernelSU": true,
     "toolchains": [
       {
