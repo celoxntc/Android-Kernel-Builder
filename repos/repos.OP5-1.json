@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "halohen-OP5-KSU-CLANG10",
-      "repo": "https://github.com/halogenOS/android_kernel_oneplus_msm8998",
-      "branch": "XOS-10.0",
+      "name": "Jaguar-OP5-KSU-CLANG10",
+      "repo": "https://github.com/optimumpr/kernel_oneplus5_msm8998",
+      "branch": "JaguarQ",
       "device": "cheeseburger",
-      "defconfig": "lineage_oneplus5_defconfig"
+      "defconfig": "jaguar_oneplus5_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
