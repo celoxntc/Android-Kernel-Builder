@@ -9,7 +9,7 @@
     "toolchains": [
       {
     "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
-    "branch": "android10-release",
+    "branch": "android11-release",
     "name": "clang",
       },
       {
