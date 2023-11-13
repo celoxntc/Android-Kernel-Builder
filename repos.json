@@ -13,23 +13,19 @@
     "name": "clang",
       },
       {
-    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
-    "branch": "android10-release",
-    "name": "gas",
-      },
-      {
-    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
-    "branch": "android10-release",
-    "name": "gas",
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas"
       }
     ],
     "params": {
-    "ARCH": "arm64",
-    "CC": "clang",
-    "HOSTCC": "clang",
-    "CLANG_TRIPLE": "aarch64-linux-gnu-",
-    "CROSS_COMPILE": "aarch64-linux-android-",
-    "CROSS_COMPILE_ARM32": "arm-linux-androideabi-"
-            }
+      "ARCH": "arm64",
+      "CROSS_COMPILE": "aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-",
+      "HOSTCC": "clang",
+      "CC": "clang"
+    }
 }
 ]
