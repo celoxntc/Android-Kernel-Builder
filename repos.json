@@ -8,24 +8,30 @@
     "withKernelSU": true,
     "toolchains": [
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
-        "branch": "master",
-        "name": "gas"
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9",
+    "branch": "android10-release",
+    "name": "gcc",
       },
       {
-        "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
-        "branch": "android10-release",
-        "name": "clang"
+    "repo": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+    "branch": "android10-release",
+    "name": "gcc32",
+      },
+      {
+    "repo": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86",
+    "branch": "android10-release",
+    "name": "clang"
       }
     ],
     "params": {
-      "ARCH": "arm64",
-      "CROSS_COMPILE": "aarch64-linux-gnu-",
-      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
-      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
-      "CLANG_TRIPLE": "aarch64-linux-gnu-",
-      "AR": "",
-      "CC": "clang"
+        "ARCH": "arm64",
+        "CC": "clang",
+        "HOSTCC": "clang",
+        "externalCommand": {
+        "CLANG_TRIPLE": "gcc/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
+        "CROSS_COMPILE_ARM32": "gcc32/bin/arm-linux-androideabi-"
+      }
     }
   }
 ]
